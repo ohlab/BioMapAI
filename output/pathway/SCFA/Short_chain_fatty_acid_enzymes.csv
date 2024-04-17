@@ -1,0 +1,48 @@
+﻿enzyme,pathway,EC,KO,pathway_variants,Annotation,distance_to_end_prodocut,function
+ccrA,butyrate_synthesis,1.3.1.86,K17829,Crotonoyl-CoA->Butyryl-CoA,Crotonoyl-CoA->Butyryl-CoA->Butyrate,1,crotonyl-CoA reductase (EC:1.3.1.86)
+"fabV, ter",butyrate_synthesis,1.3.1.9 1.3.1.44,K00209,Crotonoyl-CoA->Butyryl-CoA,Crotonoyl-CoA->Butyryl-CoA->Butyrate,1,enoyl-[acyl-carrier protein] reductase / trans-2-enoyl-CoA reductase (NAD+) (EC:1.3.1.9 1.3.1.44)
+But,butyrate_synthesis,2.8.3.8 2.8.3.9,K19709,Butyryl-CoA->Butyrate,Crotonoyl-CoA->Butyryl-CoA->Butyrate,0,acetate CoA/acetoacetate CoA-transferase alpha subunit (EC:2.8.3.8 2.8.3.9)
+Buk,butyrate_synthesis,2.7.2.7,K00929,Butyryl-CoA->Butyrate,Crotonoyl-CoA->Butyryl-CoA->Butyrate,0,Butyrate kinase (EC 2.7.2.7)
+"ACAT, atoB",butyrate_synthesis,2.3.1.9,K00626,Pyruvate_pathway,Pyruvate->Acetyl-CoA->Butyrate,4,ame acetyl-CoA C-acetyltransferase (EC:2.3.1.9)
+Hbd,butyrate_synthesis,1.1.1.157,K00074,Pyruvate_pathway,Pyruvate->Acetyl-CoA->Butyrate,3,3-hydroxybutyryl-CoA dehydrogenase (EC 1.1.1.157)
+"Cat, abfT",butyrate_synthesis,2.8.3.-,K18122,Succinate(4aminobutyrate)_pathway,Succinate(4aminobutyrate)->Butyrate,3,4-hydroxybutyrate:acetyl-CoA CoA transferase (EC:2.8.3.-)
+AbfH,butyrate_synthesis,1.1.1.61,K18120,Succinate(4aminobutyrate)_pathway,Succinate(4aminobutyrate)->Butyrate,4,NAD-dependent 4-hydroxybutyrate dehydrogenase (EC 1.1.1.61)
+sucD,butyrate_synthesis,1.2.1.76,K18119,Succinate(4aminobutyrate)_pathway,Succinate(4aminobutyrate)->Butyrate,5,"Succinate-semialdehyde dehydrogenase, CoA-dependent"
+AbfD,butyrate_synthesis,4.2.1.120,K14534,Succinate(4aminobutyrate)_pathway,Succinate(4aminobutyrate)->Butyrate,2,4-hydroxybutanoyl-CoA dehydratase (EC 4.2.1.120)
+GctA,butyrate_synthesis,2.8.3.12,K01039,Glutarate_pathway,Glutarate->Butyrate,4,Glutaconate CoA-transferase subunit A (EC 2.8.3.12)
+GctB,butyrate_synthesis,2.8.3.12,K01040,Glutarate_pathway,Glutarate->Butyrate,4,Glutaconate CoA-transferase subunit B (EC 2.8.3.12)
+GcdA,butyrate_synthesis,7.2.4.5,K01615,Glutarate_pathway,Glutarate->Butyrate,2,glutaconyl-CoA decarboxylase subunit alpha (EC:7.2.4.5)
+HgdA,butyrate_synthesis,4.2.1.167,K20903,Glutarate_pathway,Glutarate->Butyrate,3,"2-hydroxyglutaryl-CoA dehydratase, D-component HgdA"
+HgdB,butyrate_synthesis,4.2.1.167,K20904,Glutarate_pathway,Glutarate->Butyrate,3,"2-hydroxyglutaryl-CoA dehydratase, D-component HgdB"
+HgdC,butyrate_synthesis,5.6.1.9,K23876,Glutarate_pathway,Glutarate->Butyrate,3,"2-hydroxyglutaryl-CoA dehydratase activator, A-component"
+KamE,butyrate_synthesis,5.4.3.3,K18011,Lysine_pathway,Lysine->Butyrate,5,"beta-lysine 5,6-aminomutase beta subunit (EC:5.4.3.3)"
+KamD,butyrate_synthesis,5.4.3.3,K01844,Lysine_pathway,Lysine->Butyrate,5,"beta-lysine 5,6-aminomutase alpha subunit (EC:5.4.3.3)"
+KAL,butyrate_synthesis,4.3.1.14,K18014,Lysine_pathway,Lysine->Butyrate,2,3-aminobutyryl-CoA ammonia-lyase (EC 4.3.1.14)
+PduC,propionate_synsthesis,4.2.1.28,K01699,Propanediol_pathway,Propanediol_pathway,2,Propanediol dehydratase large subunit (EC 4.2.1.28)
+PduD,propionate_synsthesis,4.2.1.28,K13919,Propanediol_pathway,Propanediol_pathway,2,Propanediol dehydratase medium subunit (EC 4.2.1.28)
+PduE,propionate_synsthesis,4.2.1.28,K13920,Propanediol_pathway,Propanediol_pathway,2,Propanediol dehydratase small subunit (EC 4.2.1.28)
+PduP,propionate_synsthesis,1.2.1.87,K13922,Propanediol_pathway,Propanediol_pathway,1,CoA-acylating propionaldehyde dehydrogenase
+PduQ,propionate_synsthesis,,K13921,Propanediol_pathway,Propanediol_pathway,1,Propanol dehydrogenase
+Acr,propionate_synsthesis,1.3.1.95,K20143,Acrylate_pathway,Acrylate_pathway,1,Acryloyl-CoA reductase (EC 1.3.1.95)
+LcdA,propionate_synsthesis,4.2.1.54,K20626,Acrylate_pathway,Acrylate_pathway,2,"Lactoyl-CoA dehydratase, alpha subunit (EC 4.2.1.54)"
+LcdB,propionate_synsthesis,4.2.1.54,K20627,Acrylate_pathway,Acrylate_pathway,2,"Lactoyl-CoA dehydratase, beta subunit (EC 4.2.1.54)"
+Mce,propionate_synsthesis,5.1.99.1,K05606,Succinate_pathway,Succinate_pathway,2,Methylmalonyl-CoA epimerase (EC 5.1.99.1)
+Mut,propionate_synsthesis,5.4.99.2,K01847,Succinate_pathway,Succinate_pathway,3,Methylmalonyl-CoA mutase (EC 5.4.99.2)
+mcmA1,propionate_synsthesis,5.4.99.2,K01848,Succinate_pathway,Succinate_pathway,3,"methylmalonyl-CoA mutase, N-terminal domain"
+mcmA2,propionate_synsthesis,5.4.99.2,K01849,Succinate_pathway,Succinate_pathway,3,"methylmalonyl-CoA mutase, C-terminal domain"
+MmdA,propionate_synsthesis,7.2.4.3,K01604,Succinate_pathway,Succinate_pathway,1,"Methylmalonyl-CoA decarboxylase, alpha chain (EC 4.1.1.41)"
+MmdC; gcdC,propionate_synsthesis,7.2.4.3,K23351,Succinate_pathway,Succinate_pathway,1,Biotin carboxyl carrier protein => methylmalonyl-CoA decarboxylase
+MmdD; gcdE,propionate_synsthesis,7.2.4.3,K23352,Succinate_pathway,Succinate_pathway,1,"Methylmalonyl-CoA decarboxylase, delta-subunit (EC 4.1.1.41)"
+MmdE,propionate_synsthesis,7.2.4.3,K23360,Succinate_pathway,Succinate_pathway,1,"Methylmalonyl-CoA decarboxylase, epsilon-subunit (EC 4.1.1.41)"
+MMCT_5S,propionate_synsthesis,2.1.3.1,K03416,Succinate_pathway,Succinate_pathway,1,Methylmalonyl-CoA:Pyruvate transcarboxylase 5S subunit (EC 2.1.3.1)
+MMCT_12S,propionate_synsthesis,2.1.3.1,K17489,Succinate_pathway,Succinate_pathway,1,Methylmalonyl-CoA:Pyruvate transcarboxylase 12S subunit (EC 2.1.3.1)
+scpC,propionate_synsthesis,2.8.3.27,K22214,Propionyl-CoA->Propionate,Propionyl-CoA->Propionate,0,propionyl-CoA:succinyl-CoA transferase (EC:2.8.3.27)
+PduL,propionate_synsthesis,2.3.1.222,K13923,Propionyl-CoA->Propionate,Propionyl-CoA->Propionate,1,Phosphate propanoyltransferase (EC 2.3.1.222)
+PduW,propionate_synsthesis,2.7.2.15,K19697,Propionyl-CoA->Propionate,Propionyl-CoA->Propionate,0,Propionate kinase (EC 2.7.2.15)
+Pct,propionate_synsthesis,2.8.3.1,K01026,Propionyl-CoA->Propionate,Propionyl-CoA->Propionate,0,Propionate CoA-transferase (EC 2.8.3.1)
+tdcD,propionate_synsthesis,2.7.2.15,K00932,Propionyl-CoA->Propionate,Propionyl-CoA->Propionate,0,Propionate kinase (EC 2.7.2.15)
+"ACSS3, prpE",propionate_synsthesis,6.2.1.17,K01908,Propionyl-CoA->Propionate,Propionyl-CoA->Propionate,0,propionyl-CoA synthetase [EC:6.2.1.17]
+LdhA-L,Lactate_synthesis,1.1.1.27,K00016,Pyruvate_metabolism,Pyruvate_metabolism,0,L-lactate dehydrogenase (EC 1.1.1.27)
+LdhA-D,Lactate_synthesis,1.1.1.28,K03778,Pyruvate_metabolism,Pyruvate_metabolism,0,D-lactate dehydrogenase (EC 1.1.1.28)
+Pfld,Formate_synthesis,2.3.1.54,K00656,Pyruvate_metabolism,Pyruvate_metabolism,0,Pyruvate formate-lyase (EC 2.3.1.54)
+DLD3,Lactate_synthesis,1.1.99.40,K21618,Pyruvate_metabolism,Pyruvate_metabolism,0,(R)-2-hydroxyglutarate---pyruvate transhydrogenase [EC:1.1.99.40]

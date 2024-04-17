@@ -1,0 +1,41 @@
+,SUPER_PATHWAY,SUB_PATHWAY,Annotation
+% viable CD3+ of total CD3+,,,T Cell
+% viable CD3+ d6,,,T Cell
+% CD4+ RO+ CCR6+ IL-22+ IL-17- d1,,,IL22+ CD4 Memory
+% CD4+ RO+ IL-22+ IL-17- d1,,,IL22+ CD4 Memory
+% CD8+ RO- CCR6- IL4+ GMCSF- d1,,,
+mannitol/sorbitol,Carbohydrate,"Fructose, Mannose and Galactose Metabolism",
+mannose,Carbohydrate,"Fructose, Mannose and Galactose Metabolism",
+% CD8+ INFg- IL4+ d1,,,
+arachidate (20:0),Lipid,Long Chain Saturated Fatty Acid,
+% CD8+ RO+ CCR6+ IL-17+ INFg+ d1,,,
+2-hydroxyglutarate,Lipid,"Fatty Acid, Dicarboxylate",Dicarboxylate
+3-carboxy-4-methyl-5-propyl-2-furanpropanoate (CMPF),Lipid,"Fatty Acid, Dicarboxylate",Dicarboxylate
+isoursodeoxycholate,,,
+1-palmitoyl-2-linoleoyl-GPC (16:0/18:2),Lipid,Phosphatidylcholine (PC),
+% CD4+ CD161+ Va7.2- d6,,,
+3-methylxanthine,Xenobiotics,Xanthine Metabolism,
+% CD4+ CCR7+ RO- CD31+ CXCR3+ d0,,,
+% CD8+ RO+ Va7.2- INFg- TNFa+ d6,,,
+1-stearoyl-2-linoleoyl-GPE (18:0/18:2)*,Lipid,Phosphatidylethanolamine (PE),GPE
+DN % RO+ CD27- d0,,,
+%DN CD161+ Va7.2- d0,,,
+% CD8+ RO+ CCR6- INFg+ TNFa+ d1,,,INFg+ CD8 Memory
+% CD8+ RO+ CCR6- total INFg+ d1,,,INFg+ CD8 Memory
+CD4+ CCR6+ as % of RO+,,,
+maleate,Lipid,"Fatty Acid, Dicarboxylate",
+X-23665,,,
+succinoyltaurine,Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism",
+% DN RO- CCR6- INFg+ TNFa- d1,,,
+X-21258,,,
+% CD8+ MAIT total Granzyme+ d1,,,GzA+ CD8 MAIT
+X-17010,,,
+N-formylanthranilic acid,Amino Acid,Tryptophan Metabolism,Tryptophan
+% CD8+ RO+ Va7.2- total INFg+ d6,,,
+orotidine,Nucleotide,"Pyrimidine Metabolism, Orotate containing",
+gamma-CEHC,,,
+total % DN d0,,,
+Total gd Cells (gdTCR CD3hi + CD3lo),,,GammaDelta T
+X-24544,,,
+X-07765,,,
+4-allylphenol sulfate,Xenobiotics,Food Component/Plant,

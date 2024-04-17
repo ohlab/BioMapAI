@@ -1,0 +1,171 @@
+ParticipantID	Phenotype	Sample_Source	sex	race_hispanic	site	ibs_dx	season_a1	bmi_binned	age_binned
+CD008	control	Plasma	male	white	utah	0	winter	healthy weight	18 - 24
+CD035	case	Plasma	female	white	utah	0	spring	healthy weight	18 - 24
+CD039	case	Plasma	female	non-white and non-hispanic	utah	1	spring	healthy weight	18 - 24
+CD041	case	Plasma	female	white	utah	0	spring	healthy weight	18 - 24
+CD048	control	Plasma	female	non-white and non-hispanic	utah	0	spring	healthy weight	18 - 24
+CD049	control	Plasma	female	white	utah	0	spring	healthy weight	18 - 24
+CD071	control	Plasma	male	white	utah	0	spring	healthy weight	18 - 24
+CD073	case	Plasma	male	white	utah	0	spring	healthy weight	18 - 24
+CD076	case	Plasma	female	white	utah	1	spring	healthy weight	18 - 24
+EF005	case	Plasma	female	white	nevada	1	spring	healthy weight	18 - 24
+AB037	case	Plasma	male	white	california	0	spring	overweight	18 - 24
+CD024	case	Plasma	male	white	utah	0	winter	overweight	18 - 24
+EF009	control	Plasma	male	white	nevada	0	spring	overweight	18 - 24
+AB014	case	Plasma	female	white	california	0	winter	healthy weight	25 - 34
+AB029	control	Plasma	female	white	california	0	spring	healthy weight	25 - 34
+AB064	control	Plasma	female	white	california	0	spring	healthy weight	25 - 34
+CD009	case	Plasma	female	white	utah	1	winter	healthy weight	25 - 34
+CD010	control	Plasma	female	white	utah	0	spring	healthy weight	25 - 34
+CD037	control	Plasma	female	white	utah	0	spring	healthy weight	25 - 34
+CD052	control	Plasma	male	white	utah	0	spring	healthy weight	25 - 34
+CD056	control	Plasma	female	white	utah	0	spring	healthy weight	25 - 34
+CD068	control	Plasma	female	white	utah	0	spring	healthy weight	25 - 34
+CD077	control	Plasma	female	white	utah	0	spring	healthy weight	25 - 34
+CD081	control	Plasma	female	white	utah	0	spring	healthy weight	25 - 34
+CD085	control	Plasma	female	white	utah	0	spring	healthy weight	25 - 34
+EF002	control	Plasma	male	white	nevada	0	spring	healthy weight	25 - 34
+EF003	case	Plasma	male	white	nevada	0	spring	healthy weight	25 - 34
+GH050	control	Plasma	female	white	new_york	0	spring	healthy weight	25 - 34
+CD014	case	Plasma	male	white	utah	0	winter	obese	25 - 34
+CD036	control	Plasma	female	white	utah	0	spring	obese	25 - 34
+CD053	case	Plasma	female	white	utah	1	spring	obese	25 - 34
+CD063	case	Plasma	female	white	utah	0	spring	obese	25 - 34
+CD070	control	Plasma	male	white	utah	0	spring	obese	25 - 34
+AB008	case	Plasma	male	white	california	0	winter	overweight	25 - 34
+AB038	control	Plasma	male	white	california	0	spring	overweight	25 - 34
+AB045	control	Plasma	female	white	california	0	spring	overweight	25 - 34
+AB065	control	Plasma	female	non-white and non-hispanic	california	0	spring	overweight	25 - 34
+CD042	control	Plasma	female	white	utah	0	spring	overweight	25 - 34
+GH009	control	Plasma	male	white	new_york	0	winter	overweight	25 - 34
+GH027	control	Plasma	female	white	new_york	0	winter	overweight	25 - 34
+GH040	case	Plasma	female	white	new_york	1	winter	overweight	25 - 34
+IJ059	case	Plasma	male	hispanic	florida	0	spring	overweight	25 - 34
+GH015	control	Plasma	female	white	new_york	0	spring	underweight	25 - 34
+CD030	case	Plasma	female	white	utah	1	spring	healthy weight	35 - 44
+CD075	case	Plasma	female	white	utah	0	spring	healthy weight	35 - 44
+CD083	case	Plasma	male	white	utah	0	spring	healthy weight	35 - 44
+CD088	control	Plasma	female	white	utah	0	spring	healthy weight	35 - 44
+EF034	case	Plasma	female	white	nevada	0	spring	healthy weight	35 - 44
+EF035	case	Plasma	male	white	nevada	0	spring	healthy weight	35 - 44
+GH007	control	Plasma	female	white	new_york	0	winter	healthy weight	35 - 44
+IJ009	case	Plasma	male	white	florida	0	spring	healthy weight	35 - 44
+CD029	control	Plasma	male	white	utah	0	spring	obese	35 - 44
+GH038	control	Plasma	female	white	new_york	0	winter	obese	35 - 44
+CD012	control	Plasma	female	white	utah	0	winter	overweight	35 - 44
+CD027	case	Plasma	male	white	utah	1	spring	overweight	35 - 44
+CD046	control	Plasma	female	white	utah	0	spring	overweight	35 - 44
+CD080	control	Plasma	female	white	utah	0	spring	overweight	35 - 44
+EF029	case	Plasma	male	white	nevada	1	spring	overweight	35 - 44
+EF056	control	Plasma	female	white	nevada	0	spring	overweight	35 - 44
+GH024	case	Plasma	female	white	new_york	0	winter	overweight	35 - 44
+GH030	control	Plasma	female	white	new_york	0	winter	overweight	35 - 44
+AB047	case	Plasma	female	hispanic	california	0	spring	underweight	35 - 44
+AB023	case	Plasma	female	non-white and non-hispanic	california	1	spring	healthy weight	45 - 54
+AB051	control	Plasma	female	white	california	0	spring	healthy weight	45 - 54
+AB058	control	Plasma	female	white	california	0	spring	healthy weight	45 - 54
+CD004	case	Plasma	female	white	utah	0	winter	healthy weight	45 - 54
+CD026	control	Plasma	female	white	utah	0	spring	healthy weight	45 - 54
+CD033	control	Plasma	female	white	utah	0	spring	healthy weight	45 - 54
+CD043	case	Plasma	female	white	utah	0	spring	healthy weight	45 - 54
+CD078	control	Plasma	female	white	utah	0	summer	healthy weight	45 - 54
+EF032	case	Plasma	female	white	nevada	0	spring	healthy weight	45 - 54
+EF048	control	Plasma	male	white	nevada	0	summer	healthy weight	45 - 54
+GH041	control	Plasma	female	white	new_york	0	winter	healthy weight	45 - 54
+GH042	case	Plasma	female	white	new_york	1	winter	healthy weight	45 - 54
+GH060	case	Plasma	female	white	new_york	0	spring	healthy weight	45 - 54
+IJ043	case	Plasma	female	white	florida	0	spring	healthy weight	45 - 54
+IJ047	case	Plasma	male	white	florida	0	spring	healthy weight	45 - 54
+AB043	control	Plasma	female	white	california	0	spring	obese	45 - 54
+AB060	control	Plasma	female	white	california	0	spring	obese	45 - 54
+CD062	control	Plasma	female	white	utah	0	spring	obese	45 - 54
+EF027	control	Plasma	male	white	nevada	0	spring	obese	45 - 54
+EF028	case	Plasma	male	white	nevada	0	spring	obese	45 - 54
+EF061	control	Plasma	male	white	nevada	0	spring	obese	45 - 54
+GH008	case	Plasma	female	white	new_york	0	winter	obese	45 - 54
+AB003	case	Plasma	female	white	california	1	spring	overweight	45 - 54
+AB006	case	Plasma	female	hispanic	california	0	winter	overweight	45 - 54
+AB022	case	Plasma	female	white	california	1	spring	overweight	45 - 54
+AB028	control	Plasma	male	white	california	0	winter	overweight	45 - 54
+AB031	control	Plasma	female	white	california	0	spring	overweight	45 - 54
+CD015	case	Plasma	female	white	utah	1	spring	overweight	45 - 54
+CD072	control	Plasma	male	white	utah	1	spring	overweight	45 - 54
+EF008	control	Plasma	male	white	nevada	0	spring	overweight	45 - 54
+GH016	control	Plasma	male	white	new_york	0	spring	overweight	45 - 54
+GH019	case	Plasma	male	white	new_york	1	winter	overweight	45 - 54
+GH021	case	Plasma	male	white	new_york	0	winter	overweight	45 - 54
+GH054	case	Plasma	female	white	new_york	1	spring	overweight	45 - 54
+GH057	control	Plasma	female	white	new_york	0	spring	overweight	45 - 54
+GH061	control	Plasma	female	white	new_york	0	spring	overweight	45 - 54
+IJ010	control	Plasma	female	white	florida	0	spring	overweight	45 - 54
+IJ049	case	Plasma	female	hispanic	florida	0	spring	overweight	45 - 54
+IJ061	control	Plasma	male	white	florida	0	spring	overweight	45 - 54
+IJ038	control	Plasma	female	white	florida	0	spring	underweight	45 - 54
+AB009	case	Plasma	female	white	california	1	spring	healthy weight	55 - 64
+AB012	case	Plasma	female	white	california	1	spring	healthy weight	55 - 64
+AB032	control	Plasma	female	white	california	0	spring	healthy weight	55 - 64
+AB034	case	Plasma	female	white	california	0	spring	healthy weight	55 - 64
+AB042	control	Plasma	female	white	california	0	spring	healthy weight	55 - 64
+CD016	case	Plasma	female	white	utah	0	winter	healthy weight	55 - 64
+CD025	control	Plasma	female	white	utah	0	spring	healthy weight	55 - 64
+CD045	control	Plasma	female	white	utah	0	spring	healthy weight	55 - 64
+EF001	case	Plasma	male	white	nevada	0	spring	healthy weight	55 - 64
+EF013	case	Plasma	male	white	nevada	1	winter	healthy weight	55 - 64
+EF036	control	Plasma	female	white	nevada	0	spring	healthy weight	55 - 64
+EF051	control	Plasma	male	white	nevada	0	spring	healthy weight	55 - 64
+EF052	control	Plasma	female	white	nevada	0	spring	healthy weight	55 - 64
+EF053	control	Plasma	male	white	nevada	0	summer	healthy weight	55 - 64
+EF059	control	Plasma	male	white	nevada	0	summer	healthy weight	55 - 64
+GH006	control	Plasma	female	white	new_york	0	spring	healthy weight	55 - 64
+GH026	control	Plasma	female	white	new_york	0	winter	healthy weight	55 - 64
+GH039	control	Plasma	female	white	new_york	0	winter	healthy weight	55 - 64
+GH062	control	Plasma	female	white	new_york	0	spring	healthy weight	55 - 64
+GH063	control	Plasma	female	hispanic	new_york	0	spring	healthy weight	55 - 64
+IJ001	case	Plasma	male	non-white and non-hispanic	florida	0	spring	healthy weight	55 - 64
+IJ044	case	Plasma	female	white	florida	0	spring	healthy weight	55 - 64
+AB050	case	Plasma	female	white	california	0	spring	obese	55 - 64
+AB055	case	Plasma	female	white	california	0	summer	obese	55 - 64
+CD011	case	Plasma	female	white	utah	0	winter	obese	55 - 64
+CD020	case	Plasma	female	white	utah	1	spring	obese	55 - 64
+CD034	control	Plasma	female	white	utah	0	spring	obese	55 - 64
+CD040	control	Plasma	female	white	utah	0	spring	obese	55 - 64
+CD055	case	Plasma	female	white	utah	0	spring	obese	55 - 64
+CD086	control	Plasma	female	white	utah	0	summer	obese	55 - 64
+EF020	case	Plasma	female	white	nevada	1	spring	obese	55 - 64
+EF041	case	Plasma	female	white	nevada	0	spring	obese	55 - 64
+GH058	case	Plasma	female	hispanic	new_york	0	spring	obese	55 - 64
+IJ029	control	Plasma	female	hispanic	florida	0	spring	obese	55 - 64
+IJ075	control	Plasma	male	hispanic	florida	0	spring	obese	55 - 64
+AB024	control	Plasma	female	white	california	0	winter	overweight	55 - 64
+AB036	case	Plasma	female	white	california	0	spring	overweight	55 - 64
+AB041	control	Plasma	female	white	california	0	spring	overweight	55 - 64
+AB059	control	Plasma	female	white	california	0	spring	overweight	55 - 64
+CD017	case	Plasma	female	white	utah	1	winter	overweight	55 - 64
+CD047	control	Plasma	female	white	utah	0	spring	overweight	55 - 64
+CD050	control	Plasma	female	white	utah	0	spring	overweight	55 - 64
+CD067	case	Plasma	male	white	utah	0	spring	overweight	55 - 64
+EF006	control	Plasma	female	white	nevada	1	spring	overweight	55 - 64
+EF012	case	Plasma	male	white	nevada	0	spring	overweight	55 - 64
+EF019	case	Plasma	male	white	nevada	1	spring	overweight	55 - 64
+EF031	case	Plasma	male	white	nevada	1	spring	overweight	55 - 64
+EF033	case	Plasma	male	white	nevada	0	spring	overweight	55 - 64
+EF057	control	Plasma	female	white	nevada	0	summer	overweight	55 - 64
+EF060	control	Plasma	male	white	nevada	0	summer	overweight	55 - 64
+GH046	control	Plasma	female	white	new_york	0	spring	overweight	55 - 64
+AB049	case	Plasma	female	white	california	1	spring	underweight	55 - 64
+GH011	control	Plasma	female	white	new_york	0	winter	underweight	55 - 64
+AB010	case	Plasma	female	white	california	1	winter	healthy weight	65 and over
+AB017	case	Plasma	female	white	california	0	winter	healthy weight	65 and over
+CD001	case	Plasma	female	white	utah	1	winter	healthy weight	65 and over
+EF004	case	Plasma	male	white	nevada	0	spring	healthy weight	65 and over
+EF040	control	Plasma	female	non-white and non-hispanic	nevada	0	spring	healthy weight	65 and over
+IJ006	case	Plasma	female	white	florida	1	spring	healthy weight	65 and over
+IJ013	case	Plasma	female	white	florida	0	winter	healthy weight	65 and over
+AB063	control	Plasma	female	white	california	0	spring	obese	65 and over
+CD074	case	Plasma	female	white	utah	0	spring	obese	65 and over
+GH013	control	Plasma	female	white	new_york	1	winter	obese	65 and over
+AB026	control	Plasma	female	white	california	0	spring	overweight	65 and over
+EF010	case	Plasma	male	non-white and non-hispanic	nevada	0	winter	overweight	65 and over
+EF045	control	Plasma	female	white	nevada	0	spring	overweight	65 and over
+GH053	case	Plasma	female	white	new_york	0	winter	overweight	65 and over
+IJ014	case	Plasma	female	white	florida	0	spring	overweight	65 and over

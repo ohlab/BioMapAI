@@ -1,0 +1,34 @@
+,SUPER_PATHWAY,SUB_PATHWAY,Annotation
+phenol sulfate,Amino Acid,Tyrosine Metabolism,Phenol
+3-hydroxy-2-ethylpropionate,Amino Acid,"Leucine, Isoleucine and Valine Metabolism",BCAA
+% CD4+ RO+ CCR6+ IL-22+ IL-17- d1,,,Th22
+octadecenedioate (C18:1-DC),Lipid,"Fatty Acid, Dicarboxylate",Fatty Acid
+octadecenedioylcarnitine (C18:1-DC)*,Lipid,"Fatty Acid Metabolism (Acyl Carnitine, Dicarboxylate)",Fatty Acid
+maleate,Lipid,"Fatty Acid, Dicarboxylate",
+branched chain 14:0 dicarboxylic acid**,Lipid,"Fatty Acid, Dicarboxylate",
+pantothenate,Cofactors and Vitamins,Pantothenate and CoA Metabolism,Vitamin B5/6
+pyridoxate,Cofactors and Vitamins,Vitamin B6 Metabolism,Vitamin B5/6
+% CD4+ CCR7+ RO- CCR4+ d0,,,
+mannitol/sorbitol,Carbohydrate,"Fructose, Mannose and Galactose Metabolism",
+% CD4+ M CXCR5+ CCR7- d0,,,
+% CD4+ RO+ CCR6+ CD161+ IL-17+ INFg- d6,,,
+% CD4+ RO+ CD161+ total IL-17+ d6,,,
+% CD4+ CD161+ Va7.2- d6,,,
+pregnenediol sulfate (C21H34O5S)*,Lipid,Pregnenolone Steroids,Steroids
+"androstenediol (3beta,17beta) monosulfate (1)",Lipid,Androgenic Steroids,Steroids
+dehydroepiandrosterone sulfate (DHEA-S),Lipid,Androgenic Steroids,Steroids
+"5alpha-androstan-3beta,17beta-diol disulfate",Lipid,Androgenic Steroids,Steroids
+% viable CD3- CCR6- CD161- INFg+ d1,,,
+1-stearoyl-2-linoleoyl-GPC (18:0/18:2)*,Lipid,Phosphatidylcholine (PC),
+nonanoylcarnitine (C9),Lipid,"Fatty Acid Metabolism (Acyl Carnitine, Medium Chain)",
+margaroylcarnitine (C17)*,Lipid,"Fatty Acid Metabolism (Acyl Carnitine, Long Chain Saturated)",
+CD8+ % RO+ CD27+ d0,,,
+N-delta-acetylornithine,Amino Acid,Urea cycle; Arginine and Proline Metabolism,
+X-25420,NA,NA,
+S-methylcysteine sulfoxide,Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism",
+% CD8+ MAIT INFg+ GzA- d1,,,CD8 MAIT
+% CD4+ M CD25+ CD27+ d0,,,
+% CD8+ MAIT INFg- TNFa+ d1,,,CD8 MAIT
+% CD8+ MAIT total Granzyme+ d1,,,CD8 MAIT
+4-allylphenol sulfate,Xenobiotics,Food Component/Plant,
+hippurate,Xenobiotics,Benzoate Metabolism,Hippurate

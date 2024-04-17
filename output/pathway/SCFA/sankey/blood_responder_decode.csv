@@ -1,0 +1,55 @@
+,SUPER_PATHWAY,SUB_PATHWAY,Annotation
+phenylacetylglutamine,Peptide,Acetylated Peptides,
+trimethylamine N-oxide,Lipid,Phospholipid Metabolism,TMAO
+% CD19+ CD3- CD27+ IgG- d0,,,Memory B 
+% CD4+ RO+ CCR6- INFg- TNFa+ d1,,,
+1-(1-enyl-stearoyl)-2-oleoyl-GPE (P-18:0/18:1),Lipid,Plasmalogen,GPE
+1-(1-enyl-stearoyl)-2-linoleoyl-GPE (P-18:0/18:2)*,Lipid,Plasmalogen,GPE
+1-(1-enyl-palmitoyl)-2-linoleoyl-GPE (P-16:0/18:2)*,Lipid,Plasmalogen,GPE
+"bilirubin (E,Z or Z,E)*",Cofactors and Vitamins,Hemoglobin and Porphyrin Metabolism,
+%CD8+ CD161+ Va7.2- d0,,,
+% CD4+ RO+ CCR6+ d0,,,Treg
+CD4+ CCR6+ as % of RO+,,,Treg
+% CD4+ M total CCR6+ d0,,,Treg
+% CD4+ M CCR6+ CXCR3+ d0,,,Treg
+palmitoyl sphingomyelin (d18:1/16:0),Lipid,Sphingomyelins,
+%CD4+ MAIT d0,,,
+lactosyl-N-nervonoyl-sphingosine (d18:1/24:1)*,Lipid,Lactosylceramides (LCER),
+hexanoylglutamine,Lipid,Fatty Acid Metabolism (Acyl Glutamine),Acyl Glutamine/Carnitine
+stearoylcarnitine (C18),Lipid,"Fatty Acid Metabolism (Acyl Carnitine, Long Chain Saturated)",Acyl Glutamine/Carnitine
+X-24475,NA,NA,
+% CD8+ MAIT INFg+ TNFa- d6,,,CD8 MAIT
+% CD8+ MAIT INFg+ GzA- d1,,,CD8 MAIT
+% CD8+ MAIT INFg- GzA+ d1,,,CD8 MAIT
+% CD8+ MAIT total TNFa+ d6,,,CD8 MAIT
+% CD8+ MAIT total Granzyme+ d1,,,CD8 MAIT
+% CD8+ RO+ CCR7+ d0,,,
+1-(1-enyl-palmitoyl)-2-arachidonoyl-GPC (P-16:0/20:4)*,Lipid,Plasmalogen,
+% CD4+ RO+ INFg- GzA+ d1,,,
+% CD4+ M CCR6+ CXCR3- d0,,,
+X-16580,NA,NA,
+% CD8+ RO- CCR6- IL4+ GMCSF- d1,,,
+% CD4+ CD161+ Va7.2- d6,,,
+% CD4+ RO+ CCR6+ CD161+ d6,,,
+X-23680,NA,NA,
+% CD4+ RO+ CCR6+ CD161- d6,,,
+ethylmalonate,Amino Acid,"Leucine, Isoleucine and Valine Metabolism",
+hippurate,Xenobiotics,Benzoate Metabolism,Hippurate
+N-acetylglutamate,Amino Acid,Glutamate Metabolism,
+% CD4+ CCR7+ RO- CD31+ CXCR3- d0,,,
+NK % CD56lo CD16-,,,NK
+"ceramide (d18:1/14:0, d16:1/16:0)*",Lipid,Ceramides,
+1-myristoyl-2-palmitoyl-GPC (14:0/16:0),Lipid,Phosphatidylcholine (PC),
+% CD8+ RO+ CCR6+ IL-17- INFg+ d1,,,
+CD8+ % RO- CD27+ d0,,,
+% CD4+ RO- CCR7- d0,,,
+% CD8+ RO- CD27- d0,,,
+CD3+ gdTCR+ CD3hi,,,GammaDelta T
+Total gd Cells (gdTCR CD3hi + CD3lo),,,GammaDelta T
+% DR+ CD3- d0,,,
+CD3+ gdTCR+ CD3lo,,,GammaDelta T
+% CD4+ RO+ CCR6+ total IL-17+  d6,,,Th17
+% CD4+ RO+ IL-17+ INFg- d6,,,Th17
+% CD4+ IL-17+ IL-22- d6,,,Th17
+% CD4+ RO+ INFg- GMCSF+ d1,,,Th17
+glycoursodeoxycholate,Lipid,Secondary Bile Acid Metabolism,

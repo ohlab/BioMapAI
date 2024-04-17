@@ -1,0 +1,17 @@
+﻿,Orthology,Reaction,Reaction_decode,Pathway,Pathway_decode,Module,Module_decode,Annotation
+K00055,aad14; aryl-alcohol dehydrogenase [EC:1.1.1.90],R05348,2-Methylbenzyl alcohol + NAD+ <=> 2-Methylbenzaldehyde + NADH + H+,map01220,Degradation of aromatic compounds,M00538,"Toluene degradation, toluene => benzoate",Phenol<=>Benzoic Acid
+K02549,menC; O-succinylbenzoate synthase [EC:4.2.1.113],R04031,"2-Succinylbenzoate + H2O <=> (1R,6R)-6-Hydroxy-2-succinylcyclohexa-2,4-diene-1-carboxylate",map01110,Biosynthesis of secondary metabolites,M00116,"Menaquinone biosynthesis, chorismate => menaquinol",Chorismate<=>Benzoic Acid
+K01451,hipO; hippurate hydrolase [EC:3.5.1.32],R01424,Hippurate + H2O <=> Benzoate + Glycine,map01100,Metabolic pathways,,,Hippurate<=>Benzoate
+K02619,pabC; 4-amino-4-deoxychorismate lyase [EC:4.1.3.38],R05553,4-Amino-4-deoxychorismate <=> 4-Aminobenzoate + Pyruvate,map00790,Folate biosynthesis,,,Folate<=>Benzoic Acid
+K01911,menE; O-succinylbenzoic acid---CoA ligase [EC:6.2.1.26],R04030,ATP + 2-Succinylbenzoate + CoA <=> AMP + Diphosphate + 2-Succinylbenzoyl-CoA,map01110,Biosynthesis of secondary metabolites,M00116,"Menaquinone biosynthesis, chorismate => menaquinol",Chorismate<=>Benzoic Acid
+K01665,pabB; para-aminobenzoate synthetase component I [EC:2.6.1.85],R01716,Chorismate + L-Glutamine <=> 4-Amino-4-deoxychorismate + L-Glutamate,map00790,Folate biosynthesis,,,Folate<=>Benzoic Acid
+K00796,folP; dihydropteroate synthase [EC:2.5.1.15],R03067,"6-Hydroxymethyl-7,8-dihydropterin diphosphate + 4-Aminobenzoate <=> Diphosphate + Dihydropteroate",map01100,Metabolic pathways,M00841,"Tetrahydrofolate biosynthesis, mediated by PTPS, GTP => THF",Chorismate<=>Benzoic Acid
+K12942,abgT; aminobenzoyl-glutamate transport protein,,,,,,,Chorismate<=>Benzoic Acid
+K03179,ubiA; 4-hydroxybenzoate polyprenyltransferase [EC:2.5.1.39],R05615,all-trans-Octaprenyl diphosphate + 4-Hydroxybenzoate <=> 3-Octaprenyl-4-hydroxybenzoate + Diphosphate,map01110,Biosynthesis of secondary metabolites,M00117,"Ubiquinone biosynthesis, prokaryotes, chorismate => ubiquinone",Chorismate<=>Benzoic Acid
+K21759,bsdD; vanillate/4-hydroxybenzoate decarboxylase subunit D [EC:4.1.1.- 4.1.1.61],R01238,4-Hydroxybenzoate <=> Phenol + CO2,map01220,Degradation of aromatic compounds,,,Phenol<=>Benzoic Acid
+K18285,mqnE; aminodeoxyfutalosine synthase [EC:2.5.1.120],R10667,S-Adenosyl-L-methionine + 3-[(1-Carboxyvinyl)oxy]benzoate + H2O <=> 6-Amino-6-deoxyfutalosine + L-Methionine + HCO3-,map01110,Biosynthesis of secondary metabolites,,,Chorismate<=>Benzoic Acid
+K11782,mqnA; chorismate dehydratase [EC:4.2.1.151],R10666,Chorismate <=> 3-[(1-Carboxyvinyl)oxy]benzoate + H2O,map01110,Biosynthesis of secondary metabolites,,,Chorismate<=>Benzoic Acid
+K03182,ubiD; 4-hydroxy-3-polyprenylbenzoate decarboxylase [EC:4.1.1.98],R04986,3-Octaprenyl-4-hydroxybenzoate <=> 2-Octaprenylphenol + CO2,map01110,Biosynthesis of secondary metabolites,M00117,"Ubiquinone biosynthesis, prokaryotes, chorismate => ubiquinone",Chorismate<=>Benzoic Acid
+K03342,pabBC; para-aminobenzoate synthetase / 4-amino-4-deoxychorismate lyase [EC:2.6.1.85 4.1.3.38],R05553,4-Amino-4-deoxychorismate <=> 4-Aminobenzoate + Pyruvate,map00790,Folate biosynthesis,,,Folate<=>Benzoic Acid
+K05782,benE; benzoate membrane transport protein,,,,,,,Benzoate Transport
+K01612,bsdC; vanillate/4-hydroxybenzoate decarboxylase subunit C [EC:4.1.1.- 4.1.1.61],R01238,4-Hydroxybenzoate <=> Phenol + CO2,map01220,Degradation of aromatic compounds,,,Phenol<=>Benzoic Acid

@@ -1,0 +1,39 @@
+,SUPER_PATHWAY,SUB_PATHWAY,Annotation
+"sphingomyelin (d18:1/25:0, d19:0/24:1, d20:1/23:0, d19:1/24:0)*",Lipid,Sphingomyelins,Lipids
+"ceramide (d18:1/17:0, d17:1/18:0)*",Lipid,Ceramides,Lipids
+1-myristoyl-2-arachidonoyl-GPC (14:0/20:4)*,Lipid,Phosphatidylcholine (PC),Lipids
+glutarate (C5-DC),Lipid,"Fatty Acid, Dicarboxylate",Lipids
+% CD8+ M total CXCR3+ d0,,,CD8 CXCR3+
+% CD8+ MAIT IL-17- INFg+ d6,,,INFg+ CD8 MAIT
+% CD8+ MAIT INFg+ TNFa+ d6,,,INFg+ CD8 MAIT
+% CD8+ MAIT total INFg+ d6,,,INFg+ CD8 MAIT
+% CD4+ IL-17+ IL-22+ d6,,,
+X-11795,NA,NA,
+% CD4+ M CD25- CD27+ d0,,,Treg Memory
+glucose,Carbohydrate,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",
+% CD8+ MAIT INFg- TNFa+ d6,,,
+total % CD4+ d6,,,
+X-21339,NA,NA,
+% CD8+ and DN,,,
+andro steroid monosulfate C19H28O6S (1)*,Lipid,Androgenic Steroids,
+21-hydroxypregnenolone disulfate,Lipid,Pregnenolone Steroids,
+X-21364,NA,NA,
+tetradecanedioate (C14-DC),Lipid,"Fatty Acid, Dicarboxylate",Dicarboxylate
+hexadecanedioate (C16-DC),Lipid,"Fatty Acid, Dicarboxylate",Dicarboxylate
+% CD8+ MAIT INFg+ TNFa- d6,,,
+eicosanedioate (C20-DC),Lipid,"Fatty Acid, Dicarboxylate",Dicarboxylate
+% CD8+ RO+ CD31- CD27+ d0,,,
+octadecenedioate (C18:1-DC),Lipid,"Fatty Acid, Dicarboxylate",Dicarboxylate
+% CD4+ RO+ CCR6+ CD161- IL-17+ INFg+ d6,,,Th17 Memory
+% CD4+ RO+ CCR6+ IL-17+ INFg+ d6,,,Th17 Memory
+% CD3- CD19- DR+ d0,,,
+% CD4+ RO+ CCR6- IL-17+ INFg+ d6,,,Th17 Memory
+pyridoxate,Cofactors and Vitamins,Vitamin B6 Metabolism,
+1-linoleoyl-GPC (18:2),Lipid,Lysophospholipid,
+% CD4+ IL-17+ IL-22- d6,,,
+% CD4+ RO+ CCR6+ IL-17+ INFg- d6,,,Th17 Memory
+% CD4+ RO+ CCR6+ total IL-17+  d6,,,Th17 Memory
+% CD4+ RO+ CCR6+ CD161+ d6,,,Th17 Memory
+% CD8+ RO- CCR6- IL4+ GMCSF- d1,,,
+glycoursodeoxycholate,Lipid,Secondary Bile Acid Metabolism,2nd Bile Acid
+isoursodeoxycholate,Lipid,Secondary Bile Acid Metabolism,2nd Bile Acid

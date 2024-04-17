@@ -1,0 +1,32 @@
+,decode,member_counts,size
+Specie.green,Firmicutes.sp,31,31
+Specie.blue,Blautia Flavonifractor,44,44
+Specie.turquoise,Lachnospiraceae,58,58
+Specie.brown,Prevotella,40,40
+Specie.yellow,Ruminococcaceae,38,38
+Specie.black,Lactobacillaceae,21,21
+Specie.red,Clostridia.sp,28,28
+KEGG.green,Antibiotics,173,59.65517241
+KEGG.black,Secondary Mets,156,53.79310345
+KEGG.brown,Amino Acid,277,95.51724138
+KEGG.red,Benzoate Degradate,133,45.86206897
+KEGG.purple,Pyruvate,55,18.96551724
+KEGG.magenta,Fatty Acid,68,23.44827586
+Immune.pink,CD8 MAIT,17,17
+Immune.turquoise,GMCSF+/GzA+ CD8,55,55
+Immune.purple,INFg+ CD8,14,14
+Immune.yellow,TCM,28,28
+Immune.blue,Th17,36,36
+Immune.brown,INFg+ Memory CD4,63,63
+Immune.magenta,TNFa+ Cytotoxic T,17,17
+Immune.black,Th17 Memory,19,19
+Immune.greenyellow,INFg+ GzA+ CD8 MAIT,12,12
+Metabolome.black,Long Chain Fatty Acid,18,18
+Metabolome.turquoise,Phospholipids,57,57
+Metabolome.blue,Acyl Carnitine,55,55
+Metabolome.pink,Plasmalogen,18,18
+Metabolome.green,Medium Chain FA,27,27
+Metabolome.yellow,Steroids,32,32
+Metabolome.brown,Sphingomyelins,40,40
+Metabolome.magenta,Benzoate Metabolism,15,15
+Metabolome.red,Tocopherol Metabolism,18,18
