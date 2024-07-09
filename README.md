@@ -5,23 +5,33 @@ The primary goal of BioMapAI is to connect high-dimensional biology data, $X$ to
 ## 1. BioMapAI Structure.
 BioMapAI is a fully connected deep neural network framework comprising an input layer $X$, a normalization layer, three sequential hidden layers, $Z^1,\ Z^2,\ Z^3$,and one output layer $Y$.
 
-1) **Input layer ($\mathbit{X}$)** takes high-dimensional ‘omics data, such as gene expression, species abundance, metabolome matrix, or any customized matrix like immune profiling and blood labs.
+1) **Input layer ($X$)** takes high-dimensional ‘omics data, such as gene expression, species abundance, metabolome matrix, or any customized matrix like immune profiling and blood labs.
 2) **Normalization Layer** standardizes the input features to have zero mean and unit variance, defined as
+
    $X^\prime=\frac{X-\mu}{\sigma}$
-where $\mu$ is the mean and \sigma is the standard deviation of the input features.
-3) **Feature Learning Module** is the core of BioMapAI, responsible for extracting and learning important patterns from input data. Each fully connected layer (hidden layer is designed to capture complex interactions between features. Hidden Layer 1 (\mathbit{Z}^\mathbf{1}) and Hidden Layer 2 (\mathbit{Z}^\mathbf{2}) contain 64 and 32 nodes, respectively, both with ReLU activation and a 50% dropout rate, defined as:
-Z^k=ReLU\left(W^kZ^{k-1}+b^k\right),\ \ k\in{1,2}
-Hidden Layer 3 (\mathbit{Z}^\mathbf{3}) has n parallel sub-layers for each object, y_i in Y. Every sub-layer, Z_i^3, contains 8 nodes, represented as:
-Z_i^3=ReLU\left(W_i^3Z^3+b_i^3\right),\ \ i\in{1,2,\ldots,n}
+   
+where $\mu$ is the mean and $\sigma$ is the standard deviation of the input features.
+3) **Feature Learning Module** is the core of BioMapAI, responsible for extracting and learning important patterns from input data. Each fully connected layer (hidden layer is designed to capture complex interactions between features. **Hidden Layer 1 ($\mathbit{Z}^\mathbf{1}$)** and **Hidden Layer 2 ($\mathbit{Z}^\mathbf{2}$)** contain 64 and 32 nodes, respectively, both with ReLU activation and a 50% dropout rate, defined as:
+
+$Z^k=ReLU\left(W^kZ^{k-1}+b^k\right),\ \ k\in{1,2}$
+
+**Hidden Layer 3 (\mathbit{Z}^\mathbf{3})** has n parallel sub-layers for each object, $y_i$ in $Y$. Every sub-layer, $Z_i^3$, contains 8 nodes, represented as:
+
+$Z_i^3=ReLU\left(W_i^3Z^3+b_i^3\right),\ \ i\in{1,2,\ldots,n}$
+
 All hidden layers used ReLU activation functions, defined as:
-\mathrm{ReLU}\left(x\right)=max\left(0,x\right)
-5) Outcome Prediction Module is responsible for the final prediction of the objects. The output layer (\mathbit{Y}) has n nodes, each representing a different object:
-y_i\ =\ σ(Wi4Zi3+bi4)                          for binary objectsoftmax(Wi4Zi3+bi4)      for categorical object Wi4Zi3+bi4                         for continuous object   
+
+$\mathrm{ReLU}\left(x\right)=max\left(0,x\right)$
+
+4) **Outcome Prediction Module** is responsible for the final prediction of the objects. The output layer ($\mathbit{Y}$) has n nodes, each representing a different object:
+
+$y_i\ =\ σ(Wi4Zi3+bi4)                          for binary objectsoftmax(Wi4Zi3+bi4)      for categorical object Wi4Zi3+bi4                         for continuous object   
 The loss functions are dynamically assigned based on the type of each \mathrm{object}: 
-\mathcal{L}=\ 1Ni=1Nyilogyi+1-yilog1-yi       for binary object-1Ni=1Nj=1Cyijlogyij                          for categorical object1Ni=1N0.5yi-yi2,   if yi-yi≤δδyi-yi-0.5δ2,otherwise      for continuous object  
+\mathcal{L}=\ 1Ni=1Nyilogyi+1-yilog1-yi       for binary object-1Ni=1Nj=1Cyijlogyij                          for categorical object1Ni=1N0.5yi-yi2,   if yi-yi≤δδyi-yi-0.5δ2,otherwise      for continuous object$  
 
 During training, the weights are adjusted using the Adam optimizer. The learning rate was set to 0.01, and weights were initialized using the He normal initializer. L2 regularizations were applied to prevent overfitting.
-5) Optional Binary Classification Layer (not used for parameter training). An additional binary classification layer is attached to the output layer Y to evaluate the model's performance in binary classification tasks. This layer is not used for training BioMapAI but serves as an auxiliary component to assess the accuracy of predicting binary outcomes, for example, disease vs. control. This ScoreLayer takes the predicted scores from the output layer and performs binary classification:
+
+5) **Optional Binary Classification Layer** (not used for parameter training). An additional binary classification layer is attached to the output layer Y to evaluate the model's performance in binary classification tasks. This layer is not used for training BioMapAI but serves as an auxiliary component to assess the accuracy of predicting binary outcomes, for example, disease vs. control. This ScoreLayer takes the predicted scores from the output layer and performs binary classification:
 y_{binary}=\sigma\left(W_{binary}Y+b_{binary}\right)
 The initial weights of the 12 scores are derived from the original clinical data, and the weights are adjusted based on the accuracy of BioMapAI's predictions:
 w_{\mathrm{new}}=w_{\mathrm{old}}-\eta\nabla\mathcal{L}_{MSE}
