@@ -3,6 +3,21 @@ The primary goal of BioMapAI is to connect high-dimensional biology data, $X$ to
 
 ## To Train your BioMapAI
 
+BioMapAI is a deep learning framework for multi-stage modeling of biological data. It first predicts intermediate targets (omics scores) and then maps them into a final outcome or classification label.
+
+## Features
+
+- **OmicScoreModel**: Train a model to predict intermediate omic scores (Y).  
+- **ScoreLayer**: Build a simple layer (or sub-model) that converts omic scores (Y) into the final target (y0).  
+- **ScoreYModel**: Combine the trained omic score model with the ScoreLayer to get final predictions and metrics.  
+- **WeightsAdjust** (Optional): Fine-tune the relationship between Y and y0 for better performance.
+
+## Quick Start
+
+1. **Install Dependencies**  
+   ```bash
+   pip install numpy pandas tensorflow
+
 
 ## To Load and use our pretrained model for ME/CFS: DeepMECFS
 
