@@ -56,3 +56,58 @@ For an in-depth guide, check out the [BioMapAI_Training_Tutorial.ipynb](BioMapAI
 
 
 ## To Load and use our pretrained model for ME/CFS: DeepMECFS
+
+
+We have used BioMapAI to build a **pretrained** model specifically for ME/CFS metabolomics data, called **DeepMECFS**. This model is located in the folder `pretrained_model_DeepMECFS/` and can be applied directly to new metabolomics datasets.
+
+### DeepMECFS Contents
+
+- `DeepMECFS_metabolome/`: Directory containing the trained TensorFlow model.
+- `Y2y_metabolome/`: Secondary model for converting intermediate features (`Y`) into final ME/CFS classification.
+- `metabolome_feature_metadata.csv`: Required features and metadata for alignment with your dataset.
+
+### How to Use the Pretrained Model
+
+1. **Install/Clone** the repository containing the `pretrained_model_DeepMECFS/` folder.
+2. **Prepare Your Data**:
+   - Ensure your metabolomics data columns match the names (or COMP_IDs) in `metabolome_feature_metadata.csv`.
+   - Scale or normalize your data consistently (e.g., via `StandardScaler`).
+3. **Run the Tutorial**:
+   - Open `DeepMECFS_Tutorial.ipynb` (or equivalent notebook/script).
+   - Follow each step to:
+     1. Load the pretrained models (`DeepMECFS_metabolome/` and `Y2y_metabolome/`).
+     2. Align your dataset columns to the model’s expected features.
+     3. Generate predictions (ME/CFS vs. Control).
+     4. Evaluate performance metrics (accuracy, AUC, precision, etc.).
+4. **Interpret Results**:
+   - The model outputs a probability (`0 to 1`) for ME/CFS classification.
+   - You can threshold this probability (e.g., 0.5) to get a binary label (`CFS` vs. `Control`).
+5. **Explore Further**:
+   - You can experiment with different preprocessing or consider re-training parts of the pipeline if your data differs significantly from the original study.
+
+### Reference
+
+The metabolomics data used to train DeepMECFS is described in:
+> Arnaud Germain, et al. “Plasma metabolomics reveals disrupted response and recovery following maximal exercise in myalgic encephalomyelitis/chronic fatigue syndrome.” **JCI Insight**. 2022;7(9):e157621.  
+> [DOI: 10.1172/jci.insight.157621](https://doi.org/10.1172/jci.insight.157621)
+
+For detailed instructions, see the [DeepMECFS_Tutorial.ipynb](DeepMECFS_Tutorial.ipynb). It includes code snippets for loading the data, aligning it to the model’s features, and running inference.
+
+---
+
+## Further Details
+
+For an in-depth guide to BioMapAI itself, check out the [OmicScoreModel_Tutorial.ipynb](OmicScoreModel_Tutorial.ipynb). It covers:
+
+- Data loading and organization  
+- Model instantiation and training procedures  
+- Evaluating intermediate and final predictions  
+- Strategies for adjusting model weights to improve performance  
+
+---
+
+### License
+
+This project is provided under the [MIT License](./LICENSE) (or whichever license you choose). Feel free to modify or redistribute under its terms.
+
+---
