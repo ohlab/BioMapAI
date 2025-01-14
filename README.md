@@ -16,7 +16,8 @@ BioMapAI is a deep learning framework for multi-stage modeling of biological dat
 
 1. **Install Dependencies**  
    ```bash
-   pip install numpy pandas tensorflow```
+   pip install numpy pandas tensorflow
+   ```
 
 2. **Clone or Download This Repository**
 
@@ -44,7 +45,7 @@ BioMapAI is a deep learning framework for multi-stage modeling of biological dat
 
 ## Further Details
 
-For an in-depth guide, check out the [OmicScoreModel_Tutorial.ipynb](OmicScoreModel_Tutorial.ipynb). It covers:
+For an in-depth guide, check out the [BioMapAI_Training_Tutorial.ipynb](BioMapAI_Training_Tutorial.ipynb). It covers:
 
 - Data loading and organization  
 - Model instantiation and training procedures  
