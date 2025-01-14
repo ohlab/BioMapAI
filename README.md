@@ -1,6 +1,13 @@
 # BioMapAI
 The primary goal of BioMapAI is to connect high-dimensional biology data, $X$ to mixed-type output matrix, $Y$. Unlike traditional ML or DL classifiers that typically predict a single outcome, $y$, BioMapAI is designed to learn multiple objects, $Y=\left[y_1,\ y_2,\ \ldots,y_n\right]$, simultaneously within a single model. This approach allows for the simultaneous prediction of diverse clinical outcomes - including binary, categorical, continuous variables - with ‘omics profiles, thus address disease heterogeneity by tailoring each patient’s specific symptomatology.
 
+## To Train your BioMapAI
+
+
+## To Load and use our pretrained model for ME/CFS: DeepMECFS
+
+
+
 
 ## 1. BioMapAI Structure.
 BioMapAI is a fully connected deep neural network framework comprising an input layer $X$, a normalization layer, three sequential hidden layers, $Z^1,\ Z^2,\ Z^3$,and one output layer $Y$.
