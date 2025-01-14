@@ -91,20 +91,8 @@ The metabolomics data used to train DeepMECFS is described in:
 > Arnaud Germain, et al. “Plasma metabolomics reveals disrupted response and recovery following maximal exercise in myalgic encephalomyelitis/chronic fatigue syndrome.” **JCI Insight**. 2022;7(9):e157621.  
 > [DOI: 10.1172/jci.insight.157621](https://doi.org/10.1172/jci.insight.157621)
 
-For detailed instructions, see the [DeepMECFS_Tutorial.ipynb](DeepMECFS_Tutorial.ipynb). It includes code snippets for loading the data, aligning it to the model’s features, and running inference.
+For detailed instructions, see the [Pretrained_DeepMECFS_Tutorial.ipynb](Pretrained_DeepMECFS_Tutorial.ipynb). It includes code snippets for loading the data, aligning it to the model’s features, and running inference.
 
----
-
-## Further Details
-
-For an in-depth guide to BioMapAI itself, check out the [OmicScoreModel_Tutorial.ipynb](OmicScoreModel_Tutorial.ipynb). It covers:
-
-- Data loading and organization  
-- Model instantiation and training procedures  
-- Evaluating intermediate and final predictions  
-- Strategies for adjusting model weights to improve performance  
-
----
 
 ### License
 
