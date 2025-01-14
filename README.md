@@ -16,7 +16,42 @@ BioMapAI is a deep learning framework for multi-stage modeling of biological dat
 
 1. **Install Dependencies**  
    ```bash
-   pip install numpy pandas tensorflow
+   pip install numpy pandas tensorflow```
+
+2. **Clone or Download This Repository**
+
+   This repository should include:
+   - `DNN.py`: Contains the classes and methods (OmicScoreModel, ScoreLayer, etc.).
+   - `example_data/`: Folder containing `train_data.csv` and `test_data.csv`.
+   - `OmicScoreModel_Tutorial.ipynb`: Detailed notebook tutorial.
+
+3. **Run the Tutorial Notebook**
+
+   - Open `OmicScoreModel_Tutorial.ipynb` in Jupyter Notebook or JupyterLab.
+   - Follow the cells step-by-step to:
+     1. Load training and test data.
+     2. Train the **OmicScoreModel** to predict intermediate scores (`Y`).
+     3. Build a **ScoreLayer** to convert those scores into final predictions (`y0`).
+     4. Evaluate the model performance on a test set.
+     5. (Optional) Adjust weights to improve performance.
+
+4. **Customize or Extend**
+
+   - Tune hyperparameters (epochs, optimizer, batch size, etc.).
+   - Add or remove features in the data CSV files.
+   - Modify `DNN.py` to create custom network architectures or loss functions.
+   - Integrate advanced data preprocessing or feature engineering techniques.
+
+## Further Details
+
+For an in-depth guide, check out the [OmicScoreModel_Tutorial.ipynb](OmicScoreModel_Tutorial.ipynb). It covers:
+
+- Data loading and organization  
+- Model instantiation and training procedures  
+- How to evaluate intermediate and final predictions  
+- Strategies for adjusting the model to improve performance  
+
+---
 
 
 ## To Load and use our pretrained model for ME/CFS: DeepMECFS
