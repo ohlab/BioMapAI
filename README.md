@@ -58,7 +58,7 @@ For an in-depth guide, check out the [BioMapAI_Training_Tutorial.ipynb](BioMapAI
 ## To Load and use our pretrained model for ME/CFS: DeepMECFS
 
 
-We have used BioMapAI to build a **pretrained** model specifically for ME/CFS metabolomics data, called **DeepMECFS**. This model is located in the folder `pretrained_model_DeepMECFS/` and can be applied directly to new metabolomics datasets.
+We have used BioMapAI to build **pretrained** models specifically for ME/CFS omics data, called **DeepMECFS**.We trained BioMapAI on gut microbiome data (species abundance and KEGG gene abundance), plasma metabolome, high-throughput immune flow cytometry data, Quest lab measurements, and a combined omics file containing key features from all datasets. These models are located in the folder `pretrained_model_DeepMECFS/` and can be applied directly to new ME/CFS datasets. Here we use one of public metabolome datasets as an example to walk through how to load and use our pretrained models.
 
 ### DeepMECFS Contents
 
