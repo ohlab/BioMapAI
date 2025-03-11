@@ -17,6 +17,7 @@ To run BioMapAI and DeepMECFS efficiently, we recommend the following hardware a
 - TensorFlow Version: 2.12.0
 - Pandas Version: 1.5.0
 - Numpy Version: 1.24.0
+
 **OS**: Linux/macOS/Windows (Linux recommended for best performance)
 
 ### Runtime Estimates
