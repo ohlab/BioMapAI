@@ -1,6 +1,28 @@
 # BioMapAI
 The primary goal of BioMapAI is to connect high-dimensional biology data, $X$ to mixed-type output matrix, $Y$. Unlike traditional ML or DL classifiers that typically predict a single outcome, $y$, BioMapAI is designed to learn multiple objects, $Y=\left[y_1,\ y_2,\ \ldots,y_n\right]$, simultaneously within a single model. This approach allows for the simultaneous prediction of diverse clinical outcomes - including binary, categorical, continuous variables - with ‘omics profiles, thus address disease heterogeneity by tailoring each patient’s specific symptomatology.
 
+## Recommended System Requirements
+
+To run BioMapAI and DeepMECFS efficiently, we recommend the following hardware and software setup.
+
+### Hardware Requirements
+- **CPU**: Minimum Intel Core i7 / AMD Ryzen 7, Recommended Intel Xeon / AMD Threadripper
+- **RAM**: Minimum 16GB, Recommended 32GB+ for large datasets
+- **GPU**: No GPU required
+- **Storage**: SSD recommended for faster I/O
+
+### Software Requirements
+**Version**:
+- Python Version: 3.9.13
+- TensorFlow Version: 2.12.0
+- Pandas Version: 1.5.0
+- Numpy Version: 1.24.0
+**OS**: Linux/macOS/Windows (Linux recommended for best performance)
+
+### Runtime Estimates
+- **Training BioMapAI Model**: Total execution time: 23.61 seconds on CPU: x86_64 with Total RAM: 810.20 GB
+- **Inference with Pretrained DeepMECFS Model**: Total execution time: 10.36 seconds econds on CPU: x86_64 with Total RAM: 810.20 GB
+
 ## To Train your BioMapAI
 
 BioMapAI is a deep learning framework for multi-stage modeling of biological data. It first predicts intermediate targets (omics scores) and then maps them into a final outcome or classification label.
