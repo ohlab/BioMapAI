@@ -96,6 +96,6 @@ For detailed instructions, see the [Pretrained_DeepMECFS_Tutorial.ipynb](Pretrai
 
 ### License
 
-This project is provided under the [MIT License](./LICENSE) (or whichever license you choose). Feel free to modify or redistribute under its terms.
+This project is provided under the [MIT License](./LICENSE) . Feel free to modify or redistribute under its terms.
 
 ---
