@@ -1,0 +1,11 @@
+name: BioMapAI_env
+channels:
+ - conda-forge
+dependencies:
+ - python=3.9.13
+ - tensorflow=2.12.1
+ - pandas=1.5.0
+ - numpy=1.24.0
+ - gradio=3.50.2
+ - pytorch=2.0.0
+ - scikit.learn=1.6.1
